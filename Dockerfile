@@ -14,7 +14,7 @@ RUN  apk add --update supervisor \
         \
         && echo "Asia/Ho_Chi_Minh" > /etc/timezone
 RUN apk add --no-cache build-base linux-headers pcre-dev \
-    libjpeg zlib tiff-dev freetype-dev make openssl-dev py2-pip \
+    libjpeg zlib tiff-dev freetype-dev make py2-pip \
     libffi-dev gettext gcc libpq netcat-openbsd libxml2-dev zlib-dev \
     libxslt-dev ca-certificates musl-dev python-dev \
     libre2-dev xz-dev g++ mariadb-dev\
