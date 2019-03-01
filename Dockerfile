@@ -17,7 +17,7 @@ RUN apk add --no-cache build-base linux-headers pcre-dev \
     libjpeg zlib tiff-dev freetype-dev make openssl-dev py2-pip \
     libffi-dev gettext gcc libpq netcat-openbsd libxml2-dev zlib-dev \
     libxslt-dev ca-certificates musl-dev python-dev \
-    libre2-dev xz-dev g++ \
+    libre2-dev xz-dev g++ mariadb-dev\
     && pip --no-cache-dir install --upgrade pip setuptools \
     && rm  -rf /tmp/* /var/cache/apk/*
 ADD supervisord.conf /etc/
