@@ -1,4 +1,4 @@
-FROM python:2.7.15-alpine3.7
+FROM python:2.7.15-alpine3.9
 
 RUN  apk add --update supervisor \
         \
